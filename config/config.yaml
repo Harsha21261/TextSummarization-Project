@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+root_dir: artifacts/data_ingestion
+source_data_dir: https://github.com/Harsha21261/data-files/raw/refs/heads/main/samsum.zip
+local_data_files: artifacts/data_ingestion/data.zip
+unzip_dir: artifacts/data_ingestion
