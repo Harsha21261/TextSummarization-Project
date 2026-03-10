@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# ALL Artifacts (TOO LARGE FOR GITHUB)
+artifacts/
+research/pegasus-samsum/
+research/pegasus-samsum-model/
+research/samsum_dataset/
+
+# Temporary/debug files
+diagnose_predict.py
+diagnose_output.txt
+diagnose_result.log
+test_debug.py
+eval_tmp.py
+check_git_sizes.py
+git_sizes.txt
+status.txt
+log.txt
+files.txt
+
+# Gemini
+.gemini/

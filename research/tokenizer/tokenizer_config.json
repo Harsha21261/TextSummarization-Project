@@ -1,0 +1,19 @@
+{
+  "backend": "tokenizers",
+  "eos_token": "</s>",
+  "extra_special_tokens": [
+    "<pad>",
+    "</s>",
+    "<n>"
+  ],
+  "full_tokenizer_file": null,
+  "is_local": false,
+  "mask_token": "<mask_2>",
+  "mask_token_sent": "<mask_1>",
+  "model_max_length": 1024,
+  "offset": 103,
+  "pad_token": "<pad>",
+  "tokenizer_class": "PegasusTokenizer",
+  "unk_id": 2,
+  "unk_token": "<unk>"
+}
